@@ -1,0 +1,268 @@
+
+/*
+
+Sarthak@2024
+copyright restricted
+
+background image source: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dred%2Bgradient&psig=AOvVaw2cJal6KOYpLLVOJeCT50fE&ust=1707547579058000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCICtscnUnYQDFQAAAAAdAAAAABAE"
+
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('C:\Users\shubh\OneDrive\Desktop\ML Projects\speech_forensics_devyani\sarthak_new_flask\audio-violence-detection-app\src\abstract-red-gradient-minimalism-wallpaper-preview.jpeg') center center fixed;
+    background-size: cover;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .option-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #bbb;
+  }
+  
+  .option-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .option-button.active:hover {
+    background-color: #0056b3;
+  }
+   .audio-detection-container {
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .file-upload-container {
+    margin: 10px 0;
+  }
+  
+  .file-upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-upload-label input {
+    display: none;
+  }
+  
+  .file-upload-label:hover {
+    background-color: #2980b9;
+  }
+  
+  button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: plum;
+  }
+  
+  .prediction-container,
+  .error-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .chosen-file {
+    font-style: italic;
+  }
+
+  .record-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  
+  .record-button:hover {
+    background-color: #2980b9;
+  }
+  
+
+
+  
+
+  /* Add this to your CSS file or use a styling solution like styled-components */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 20%; /* Adjust the margin as needed */
+    background-color: white; /* Set background color to white */
+  }
+  
+  .audio-wave {
+    width: 100%; /* Make the audio wave fill the container */
+  }
+  
+  .card-content {
+    margin-top: 20px; /* Add top margin to the buttons */
+    display: flex;
+    justify-content: space-around; /* Center buttons with space between */
+  }
+  
+
+
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons */
+    margin-top: 20px; /* Add some margin at the top */
+    align-items: center; /* Center vertically */
+  }
+  
+  .option-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #bbb;
+  }
+  
+  .option-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .option-button.active:hover {
+    background-color: #0056b3;
+  }
+  
+  .or-divider {
+    color: #fff;
+    margin: 0 10px; /* Adjust spacing as needed */
+  }
+  
+  .record-button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Change to your desired color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .record-button:hover {
+    background-color: #c0392b; /* Change to your desired hover color */
+  }
+
+
+  .or-divider {
+    color: #fff;
+    font-weight: bold; /* Add this line to make the text bold */
+    margin: 0 10px; /* Adjust spacing as needed */
+  }
+
+  h1 {
+    color: #fff; /* Set the text color to white */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+  }
+
+  .audio-detection-container h1 {
+    color: #000; /* Set the text color to black */
+  }
+
+
+
+  .button-predict {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Change to your desired red color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Set the display property to block */
+    margin: 0 auto; /* Set left and right margins to auto for center alignment */
+  }
+  
+  .button-predict:hover {
+    background-color: #c0392b; /* Change to your desired hover color */
+  }
+
+
+  .bar {
+    height: 20px;
+    background-color: #007bff; /* Change color as needed */
+    margin-top: 5px;
+  }
+  
+
+  .prediction-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .prediction-details li {
+    margin-bottom: 5px;
+  }
+
+  .prediction-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prediction-heading {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+ 
+
+
+  .prediction-details p {
+    display: inline-block;
+    margin: 0;
+  }
+  
