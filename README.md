@@ -86,3 +86,7 @@ Now, your Flask backend server should be up and running. You can access it at `h
 ## Snapshot of the application
 
 
+
+![Screenshot 2024-03-28 221712](Screenshot%202024-03-28%20221712.png)
+
+![Screenshot 2024-03-29 004510](Screenshot%202024-03-29%20004510.png)
