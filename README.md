@@ -1,9 +1,11 @@
-# Audio Violence Detection Application
+# Speech Forensics Application
 
 ## Authors
-Sarthak Jain
 Orchid Chetia Phukan
 
+Sarthak Jain
+
+Devyani
 
 ## Contact
 - Email: sarthakjainssjj@gmail.com or shubh2002jain@gmail.com
@@ -14,12 +16,12 @@ Make sure you have Python and Node.js installed on your system.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/sarthak_new_flask.git
+    git clone https://github.com/your-username/speech_forensics.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd sarthak_new_flask
+    cd speech_forensics
     ```
 
 3. Create and activate a virtual environment:
@@ -52,7 +54,7 @@ Make sure you have Python and Node.js installed on your system.
 
 1. Navigate to the project directory:
     ```bash
-    cd sarthak_new_flask
+    cd flask_backend
     ```
 
 2. Activate the virtual environment:
@@ -69,7 +71,7 @@ Make sure you have Python and Node.js installed on your system.
 
 1. Navigate to the frontend directory:
     ```bash
-    cd sarthak_new_flask/audio-violence-detection-app
+    cd react_frontend
     ```
 
 2. Run the application using npm:
@@ -78,3 +80,9 @@ Make sure you have Python and Node.js installed on your system.
     ```
 
 Now, your Flask backend server should be up and running. You can access it at `http://127.0.0.1:5000/` in your web browser and your React frontend application should also be running. Access it at `http://localhost:3000/` in your web browser.
+
+
+
+## Snapshot of the application
+
+
