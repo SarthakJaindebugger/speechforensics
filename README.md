@@ -5,7 +5,7 @@ Orchid Chetia Phukan
 
 Sarthak Jain
 
-Devyani
+Devyani Koshal
 
 ## Contact
 - Email: sarthakjainssjj@gmail.com or shubh2002jain@gmail.com
